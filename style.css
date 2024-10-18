@@ -1,0 +1,159 @@
+a {
+    text-decoration: none;
+  }
+
+  label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+  }
+
+  #card {
+    background: -webkit-linear-gradient(bottom, rgb(6, 42, 6), #000000);
+    border-radius: 8px;
+    box-shadow: 1px 2px 12px rgb(50, 230, 247);
+    height: 510px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+  #card-title {
+    font-family: "Playwrite FR Moderne", cursive;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  #signup {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+  }
+  #submit-btn {
+    
+    background: linear-gradient(300deg, #43d704, #c2f8c0, #43d704);
+    background-size: 180% 180%;        
+    animation: gradient-animation 18s ease infinite;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 1px 2px 8px #42d9df;
+    cursor: pointer;
+    color: black;
+    font-family: "Playwrite FR Moderne", cursive;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 45px;
+    
+    width: 153px;
+           
+    }
+          
+          @keyframes gradient-animation {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          
+    
+  }
+  #submit-btn:hover {
+    box-shadow: 0px 1px 18px #42d9df;
+  }
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-border {
+    background: black;
+    height: 1px;
+    width: 100%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+  }
+
+  .img1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+.beginnerImage1 {
+  height:20px;
+  width:20px;
+}
+
+:root {
+  --bs-body-font-family: 
+}
+
+.spacing {
+  min-width: 100%;
+  height: 80px;
+}
+
+.banner {
+  margin-left: 700px;
+}
+
+.intermediate-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+.spacing2 {
+  height: 30px;
+}
+
+.Login-title {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+
+.submit-button {
+
+  background: linear-gradient(300deg, #43d704, #c2f8c0, #43d704);
+    background-size: 180% 180%;        
+    animation: gradient-animation 18s ease infinite;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 1px 2px 8px #42d9df;
+    cursor: pointer;
+    color: black;
+    
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 45px;
+    font-family: "Lora", serif;
+    width: 153px;
+           
+    }
+          
+          @keyframes gradient-animation {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          
+    
+  }
+  .submit-btn:hover {
+      box-shadow: 0px 1px 18px #42d9df; }
