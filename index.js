@@ -12,7 +12,6 @@ var userIsAuthorised = false;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static(__dirname + '/public'));
 
 function passwordCheck(req, res, next) {
     const password = req.body["password"];
